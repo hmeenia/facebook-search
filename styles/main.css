@@ -1,0 +1,60 @@
+.logo {
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 104px 92px;
+  background-position: -7px -37px;
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.pageHeading {
+  color: white;
+}
+
+.searchBar {
+  padding: 10px;
+  background: #3B5998;
+}
+
+.searchBox {
+  width : 250px;
+}
+
+.mainContainer {
+    padding:  100px 30px 30px 30px;
+    margin: 0 auto;
+}
+
+.mainContainer h3 {
+    padding-bottom: 15px;
+}
+
+.noData{
+    font-size: 10px;
+    color: #999;
+    font-style: italic;
+}
+
+.searchList {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.favouriteList {
+  width :40% ;
+  padding-left: 20px;
+}
+
+.pageLevelDetail {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.pageLevelDetail a {
+    display: block;
+}
+
+.detailsDiv:nth-child(odd) {
+    background-color: white;
+}

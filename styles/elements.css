@@ -1,0 +1,66 @@
+/* All Form Element CSS goes here Eg : Input element, Table Element
+   We have kept Button Elements different as there might be many types of buttons.
+*/
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    word-break: break-all;
+}
+
+.table > thead > tr > td,
+.table > tbody > tr > td {
+  padding: 8px;
+  line-height: 1.5;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.table > thead > tr > td {
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+
+.table > tbody > tr:nth-child(even) > td {
+  background-color: #D4D9E5;
+}
+.table > tbody > tr:hover > td{
+  background-color: #f5f5f5;
+}
+
+.table > tbody > tr.row {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s; /* Firefox 4 */
+    -webkit-transition: all 0.5s; /* Safari and Chrome */
+    -o-transition: all 0.5s; /* Opera */
+}
+
+input[type=text]{
+  outline: none;
+  height: 32px;
+  border: 1px solid #cccccc;
+  padding: 0 8px;
+  border-radius: 2px;
+  transition-property: border;
+  transition-duration: 0.35s;
+  font-size: 1.3rem;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+input[type=text]:focus {
+    border-color: #a0a0a0;
+    box-shadow: 0 0 0 2px rgba(161, 161, 161, 0.25);
+}
+
+input[type=text].error {
+    border-color: #c6361b;
+}
+input[type=text].error:focus, input[type=text].error:hover {
+  box-shadow: 0 0 0 2px rgba(211, 74, 46, 0.25);
+}
